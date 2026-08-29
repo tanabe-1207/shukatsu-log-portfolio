@@ -557,28 +557,6 @@ GitHubを利用することで、
   <img src="images/13-system-architecture.png" width="800" alt="システム構成図">
 </p>
 
-```text
-User
- │
- ▼
-Vercel
- │
- ▼
-HTML / CSS / JavaScript / Vite
- │
- ▼
-Supabase
- ├─ Auth
- ├─ PostgreSQL + RLS
- ├─ Edge Functions
- └─ Cron
-      │
-      ├─────────────┐
-      ▼             ▼
-Google Gemini     Resend
-AI分析            メール通知
-```
-
 ---
 
 # チーム開発を通して学んだこと
